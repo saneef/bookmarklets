@@ -1,0 +1,1 @@
+window.location='http://webcache.googleusercontent.com/search?q=cache:'+window.location.host+window.location.pathname+'&strip=1';
