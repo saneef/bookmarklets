@@ -1,5 +1,7 @@
-var textString;
+var fpTextString;
+var fpActiveInput;
 
-textString = prompt('Text to paste', '');
+fpActiveInput = document.activeElement;
+fpTextString = prompt('Text to paste', '');
 
-document.activeElement.value = textString;
+document.activeElement.value = fpTextString;
